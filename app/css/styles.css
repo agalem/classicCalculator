@@ -1,0 +1,82 @@
+body {
+  background-color: darkcyan;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.calc {
+  background-color: black;
+  border-radius: 10px;
+  height: 380px;
+  width: 350px;
+  margin: 30px; }
+
+.input {
+  background-color: white;
+  height: 60px;
+  margin: 10px;
+  border: 5px solid darkgray;
+  font-size: 25px;
+  color: black;
+  text-align: left; }
+
+.row {
+  margin: 10px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row; }
+
+.btns-numbers {
+  width: 260px; }
+
+.btns-operations {
+  width: 50%;
+  min-width: 100px; }
+
+.btn {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 5px; }
+
+.btn-number {
+  background-color: lightyellow;
+  font-size: 24px;
+  border: none; }
+
+.btn-count {
+  background-color: darkblue;
+  border: none;
+  font-size: 24px;
+  color: white; }
+
+.btn-count-spec {
+  background-color: darkblue;
+  border: none;
+  font-size: 24px;
+  color: white; }
+
+.btn-clear {
+  background-color: red;
+  border: none;
+  font-size: 24px;
+  color: white; }
+
+.btn-show {
+  background-color: green;
+  border: none;
+  font-size: 24px;
+  color: white; }
+
+.topIndex {
+  font-size: 12px;
+  position: relative;
+  top: -8px; }
