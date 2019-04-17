@@ -7,7 +7,7 @@
 
 ## Live demo
 
-Project is hosted on Github Pages. https://github.com/agalem/classicCalculator
+Project is hosted on Github Pages. https://agalem.github.io/classicCalculator/
 
 ## Viewing locally
 
