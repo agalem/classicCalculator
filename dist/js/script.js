@@ -13,6 +13,12 @@ function UserError(message) {
     this.name = 'UserError';
 }
 
+function validate(input) {
+    if(input === '' || input === 'Invalid input') {
+        throw error;
+    }
+}
+
 const writeNumber = (btn) => {
     input.innerHTML += btn.innerHTML;
 };
@@ -23,12 +29,14 @@ const clearInput = () => {
 
 const showSqrt = () => {
     let inputValue = input.innerHTML;
-    let outputValue = Math.sqrt(eval(inputValue));
+    validate(inputValue);
+    let outputValue = Math.sqrt(Number(inputValue));
     input.innerHTML = String(outputValue);
 };
 
 const showSqu = () => {
     let inputValue = input.innerHTML;
+    validate(inputValue);
     let outputValue = eval(inputValue);
     let outputSquare = outputValue * outputValue;
     input.innerHTML = String(outputSquare);
@@ -36,6 +44,7 @@ const showSqu = () => {
 
 const showOutput = () =>{
     let inputValue = input.innerHTML;
+    validate(inputValue);
     let outputValue = eval(inputValue);
     input.innerHTML = String(outputValue);
 };
